@@ -27,15 +27,15 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 py-20 px-4">
+      <section className="bg-gradient-to-br from-church-purple-100 via-church-purple-50 to-church-gold-100 dark:from-church-purple-900 dark:via-church-purple-800 dark:to-church-gold-900 py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold text-church-purple-900 dark:text-white mb-6">
             Welcome to Our Church
           </h1>
-          <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-church-purple-700 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
             A community of faith, hope, and love. Join us as we grow together in Christ.
           </p>
-          <Button asChild size="lg" className="text-lg px-8 py-6">
+          <Button asChild size="lg" className="text-lg px-8 py-6 bg-church-purple-600 hover:bg-church-purple-700 text-white">
             <Link href="https://meet.google.com/hhn-cmqr-fue" target="_blank" rel="noopener noreferrer">
               Join Our Online Service
             </Link>
@@ -46,7 +46,7 @@ export default function Home() {
       {/* About Us Section */}
       <section className="py-16 px-4 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-8 text-gray-900 dark:text-white">About Us</h2>
+          <h2 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-church-purple-600 to-church-gold-600 bg-clip-text text-transparent dark:from-church-purple-400 dark:to-church-gold-400">About Us</h2>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
               We are a welcoming community dedicated to spreading God&apos;s love and serving our neighbors.
@@ -64,9 +64,9 @@ export default function Home() {
       </section>
 
       {/* Latest Announcements Section */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-800">
+      <section className="py-16 px-4 bg-gradient-to-b from-gray-50 via-church-purple-50 to-white dark:from-gray-800 dark:via-church-purple-900 dark:to-gray-900">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-church-purple-600 to-church-gold-600 bg-clip-text text-transparent dark:from-church-purple-400 dark:to-church-gold-400">
             Latest Announcements
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

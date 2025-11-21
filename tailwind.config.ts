@@ -49,6 +49,34 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			},
+  			church: {
+  				purple: {
+  					DEFAULT: '#6B46C1',
+  					50: '#F3F0FF',
+  					100: '#E9E0FF',
+  					200: '#D4C2FF',
+  					300: '#B89AFF',
+  					400: '#9C6DFF',
+  					500: '#6B46C1',
+  					600: '#5B3A9F',
+  					700: '#4B2E7D',
+  					800: '#3B225B',
+  					900: '#2B1639'
+  				},
+  				gold: {
+  					DEFAULT: '#D4AF37',
+  					50: '#FDF8E7',
+  					100: '#FBF0CF',
+  					200: '#F7E19F',
+  					300: '#F3D26F',
+  					400: '#EFC33F',
+  					500: '#D4AF37',
+  					600: '#B8942A',
+  					700: '#9C791D',
+  					800: '#805E10',
+  					900: '#644303'
+  				}
   			}
   		},
   		borderRadius: {
