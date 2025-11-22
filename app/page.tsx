@@ -6,21 +6,18 @@ export default function Home() {
   const latestAnnouncements = [
     {
       id: 1,
-      title: "Sunday Service Update",
-      date: "March 15, 2024",
+      title: "Sunday Service Time",
       description: "Join us this Sunday for our special worship service at 10:00 AM.",
     },
     {
-      id: 2,
-      title: "Community Outreach Event",
-      date: "March 10, 2024",
-      description: "We're organizing a community food drive next Saturday. All are welcome to participate!",
+      id:2, 
+      title: "Prayer Meeting Time",
+      description: "Prayer meeting every Wednesday evening at 7:00 PM.",
     },
     {
       id: 3,
       title: "Bible Study Group",
-      date: "March 8, 2024",
-      description: "New Bible study group starting this Wednesday evening at 7:00 PM.",
+      description: "New Bible study everyWednesday evening at 7:30 PM.",
     },
   ];
 
