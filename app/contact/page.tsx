@@ -41,7 +41,7 @@ export default function Contact() {
           <Card>
             <CardHeader>
               <CardTitle>Get in Touch</CardTitle>
-              <CardDescription>We'd love to hear from you</CardDescription>
+              <CardDescription>We would love to hear from you</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div>
@@ -82,7 +82,7 @@ export default function Contact() {
           <Card>
             <CardHeader>
               <CardTitle>Send us a Message</CardTitle>
-              <CardDescription>Fill out the form below and we'll respond as soon as possible</CardDescription>
+              <CardDescription>Fill out the form below and we will respond as soon as possible</CardDescription>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">

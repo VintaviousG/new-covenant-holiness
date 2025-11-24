@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Home() {
   const latestAnnouncements = [
@@ -71,7 +71,7 @@ export default function Home() {
               <Card key={announcement.id}>
                 <CardHeader>
                   <CardTitle>{announcement.title}</CardTitle>
-                  <CardDescription>{announcement.date}</CardDescription>
+                 
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700 dark:text-gray-300">{announcement.description}</p>
